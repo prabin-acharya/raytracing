@@ -1,0 +1,1 @@
+- so right now we create pixel values for a image and write it to a file

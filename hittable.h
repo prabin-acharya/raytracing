@@ -1,7 +1,6 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-#include "ray.h"
 #include "interval.h"
 
 class hit_record
@@ -11,7 +10,7 @@ public:
     vec3 normal;
     double t;
 
-    bool front_face;
+    bool front_face; // true: ray intersects the surface from  outside the sphere, false: ray intersects from inside
 
     void set_face_normal(const ray &r, const vec3 &outward_normal)
     {

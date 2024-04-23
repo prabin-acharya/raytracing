@@ -18,12 +18,19 @@ where,
 <div style="display: flex;">
 <div  style="width: 50%;">
 Before:
-  <img src="./assets/wo-aliasing-ss.png" alt="Without antialiasing" style="flex: 1; margin-right: 5px; ">
+  <img src="./assets/wo-antialiasing-ss.png" alt="Without antialiasing" style="flex: 1; margin-right: 5px; ">
 </div>
 
 <div  style="width: 50%;">
 After:
-  <img src="./assets/after-aliasing-ss.png" alt="After antialiasing" style="flex: 1; margin-left: 5px;">
+  <img src="./assets/after-antialiasing-ss.png" alt="After antialiasing" style="flex: 1; margin-left: 5px;">
 </div>
 
 </div>
+
+</div>
+
+## Diffuse Materials
+
+![Diffuse sphere](./assets/diffuse.png)
+![Diffuse spheres](./assets/diffuse2.png)

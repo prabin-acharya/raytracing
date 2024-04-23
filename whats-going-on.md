@@ -12,3 +12,18 @@ where,
  A: ray origin  
  b: ray direction  
  t: ray parameter. moves the point along the ray
+
+## Antialiasing
+
+<div style="display: flex;">
+<div  style="width: 50%;">
+Before:
+  <img src="./assets/wo-aliasing-ss.png" alt="Without antialiasing" style="flex: 1; margin-right: 5px; ">
+</div>
+
+<div  style="width: 50%;">
+After:
+  <img src="./assets/after-aliasing-ss.png" alt="After antialiasing" style="flex: 1; margin-left: 5px;">
+</div>
+
+</div>

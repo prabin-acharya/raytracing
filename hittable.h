@@ -3,12 +3,16 @@
 
 #include "interval.h"
 
+class material;
+
 class hit_record
 {
 public:
     point3 p;
     vec3 normal;
     double t;
+
+    shared_ptr<material> mat;
 
     bool front_face; // true: ray intersects the surface from  outside the sphere, false: ray intersects from inside
 

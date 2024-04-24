@@ -34,3 +34,15 @@ After:
 
 ![Diffuse sphere](./assets/diffuse.png)
 ![Diffuse spheres](./assets/diffuse2.png)
+
+## Fixed shadow acne
+
+## Lambertian distribution
+
+## gamma correction for accurate color intensity
+
+![alt text](./assets/gamma-correction.png)
+
+## Metal
+
+![alt text](./assets/metal.png)
